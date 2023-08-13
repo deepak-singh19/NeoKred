@@ -1,0 +1,17 @@
+POST http://localhost:3001/sign-up
+Content-Type: application/json
+
+{
+  "name": "John Doe",
+  "email": "john@example.com",
+  "password": "mysecretpassword",
+  "date_of_birth": "1990-01-01",
+  "address": "123 Main St",
+  "phone": "1234567890",
+  "city": "City",
+  "state": "State",
+  "zip_code": "12345",
+  "country": "Country",
+  "security_question": "Security Question",
+  "security_answer": "Security Answer"
+}
